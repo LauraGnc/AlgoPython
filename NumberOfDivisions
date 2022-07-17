@@ -1,0 +1,11 @@
+def divisions(n, divisor):
+    # A number can only be divisible by itself 1 time
+    if n == divisor:
+        return 1
+    
+    counter = 0
+    original_n = n
+    while (n / divisor) > 1:
+        n = n / divisor
+        counter += 1
+    return counter
