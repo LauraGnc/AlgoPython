@@ -1,0 +1,12 @@
+def persistence(n):
+    arr_n = [int(x) for x in str(n)]
+    counter = 0
+
+    while (len(arr_n) >= 2):
+        result = 1
+        for x in arr_n:
+            result = result * x
+        arr_n = [int(x) for x in str(result)]
+        counter += 1
+    
+    return counter
