@@ -1,6 +1,12 @@
-# Code Wars Exercices
-
-My solutions for Code Wars algorithms in Python.
-From 7 kyu to 6 kyu only (for now, ehehe).
-
+# Code Wars Solutions
 [My CodeWars profile](https://www.codewars.com/users/LauraGiannico/)
+
+
+## 7 Kyu
+- Define a card
+- Credit card mask
+- How much water?
+- Number of divisions
+
+## 6 Kyu
+- Persistent Bugger
